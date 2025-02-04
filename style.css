@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#grid-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: white;
+   
+    transition: background-color 0.2s;
+}
+
+.box:hover {
+    background-color: #f0f0f0;
+}
